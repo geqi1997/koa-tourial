@@ -1,0 +1,1014 @@
+[2018-12-07T09:17:58.049] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        purpose: 'prefetch',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=111872281.356728075.1543911140.1544061157.1544068510.8' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-type': 'text/html; charset=utf-8',
+        'content-length': '1795' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.143s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
+[2018-12-07T09:18:00.541] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/favicon.ico',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept: 'image/webp,image/apng,image/*,*/*;q=0.8',
+        referer: 'http://localhost:3000/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=111872281.356728075.1543911140.1544068510.1544145480.9; __utmc=111872281; __utmt=1; __utmb=111872281.1.10.1544145480' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/favicon.ico',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.003s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
+[2018-12-07T09:18:03.028] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/user',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        referer: 'http://localhost:3000/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=111872281.356728075.1543911140.1544068510.1544145480.9; __utmc=111872281; __utmt=1; __utmb=111872281.1.10.1544145480' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-type': 'text/html; charset=utf-8',
+        'content-length': '2235' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.032s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
+[2018-12-07T09:18:09.368] [INFO] cheese - { request:
+   { method: 'POST',
+     url: '/user/register',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'content-length': '25',
+        'cache-control': 'max-age=0',
+        origin: 'http://localhost:3000',
+        'upgrade-insecure-requests': '1',
+        'content-type': 'application/x-www-form-urlencoded',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        referer: 'http://localhost:3000/user',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=111872281.356728075.1543911140.1544068510.1544145480.9; __utmc=111872281; __utmt=1; __utmb=111872281.2.10.1544145480' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-type': 'text/html; charset=utf-8',
+        'content-length': '1639' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user/register',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.741s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
+[2018-12-07T09:38:37.166] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=111872281.356728075.1543911140.1544068510.1544145480.9; __utmc=111872281; __utmb=111872281.3.10.1544145480' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-type': 'text/html; charset=utf-8',
+        'content-length': '1795' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.065s' } { projectName: 'koa2-tutorial', serverIp: '192.168.2.109' }
+[2018-12-07T09:38:37.244] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/home/home.css',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        referer: 'http://localhost:3000/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=111872281.356728075.1543911140.1544068510.1544145480.9; __utmc=111872281; __utmb=111872281.3.10.1544145480',
+        'if-modified-since': 'Wed, 05 Dec 2018 09:04:19 GMT' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-length': '5893',
+        'last-modified': 'Wed, 05 Dec 2018 09:04:19 GMT',
+        'cache-control': 'max-age=0',
+        'content-type': 'text/css; charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/home/home.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.017s' } { projectName: 'koa2-tutorial', serverIp: '192.168.2.109' }
+[2018-12-07T09:38:40.564] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/user',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        referer: 'http://localhost:3000/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=111872281.356728075.1543911140.1544068510.1544145480.9; __utmc=111872281; __utmt=1; __utmb=111872281.4.10.1544145480' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-type': 'text/html; charset=utf-8',
+        'content-length': '2235' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.015s' } { projectName: 'koa2-tutorial', serverIp: '192.168.2.109' }
+[2018-12-07T09:38:40.625] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/home/home.css',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        referer: 'http://localhost:3000/user',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=111872281.356728075.1543911140.1544068510.1544145480.9; __utmc=111872281; __utmt=1; __utmb=111872281.4.10.1544145480',
+        'if-modified-since': 'Wed, 05 Dec 2018 09:04:19 GMT' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-length': '5893',
+        'last-modified': 'Wed, 05 Dec 2018 09:04:19 GMT',
+        'cache-control': 'max-age=0',
+        'content-type': 'text/css; charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/home/home.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.008s' } { projectName: 'koa2-tutorial', serverIp: '192.168.2.109' }
+[2018-12-07T09:38:45.456] [INFO] cheese - { request:
+   { method: 'POST',
+     url: '/user/register',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'content-length': '25',
+        'cache-control': 'max-age=0',
+        origin: 'http://localhost:3000',
+        'upgrade-insecure-requests': '1',
+        'content-type': 'application/x-www-form-urlencoded',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        referer: 'http://localhost:3000/user',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=111872281.356728075.1543911140.1544068510.1544145480.9; __utmc=111872281; __utmt=1; __utmb=111872281.5.10.1544145480' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-type': 'text/html; charset=utf-8',
+        'content-length': '1639' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user/register',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.035s' } { projectName: 'koa2-tutorial', serverIp: '192.168.2.109' }
+[2018-12-07T09:38:45.566] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/home/home.css',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        referer: 'http://localhost:3000/user/register',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=111872281.356728075.1543911140.1544068510.1544145480.9; __utmc=111872281; __utmt=1; __utmb=111872281.5.10.1544145480',
+        'if-modified-since': 'Wed, 05 Dec 2018 09:04:19 GMT' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-length': '5893',
+        'last-modified': 'Wed, 05 Dec 2018 09:04:19 GMT',
+        'cache-control': 'max-age=0',
+        'content-type': 'text/css; charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/home/home.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.012s' } { projectName: 'koa2-tutorial', serverIp: '192.168.2.109' }
+[2018-12-07T10:36:46.430] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=111872281.356728075.1543911140.1544068510.1544145480.9; __utmc=111872281' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-type': 'text/html; charset=utf-8',
+        'content-length': '1795' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.067s' } { projectName: 'koa2-tutorial', serverIp: '192.168.2.109' }
+[2018-12-07T10:36:46.498] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/home/home.css',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        referer: 'http://localhost:3000/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utma=111872281.356728075.1543911140.1544068510.1544145480.9; __utmc=111872281',
+        'if-modified-since': 'Wed, 05 Dec 2018 09:04:19 GMT' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-length': '5893',
+        'last-modified': 'Wed, 05 Dec 2018 09:04:19 GMT',
+        'cache-control': 'max-age=0',
+        'content-type': 'text/css; charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/home/home.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.008s' } { projectName: 'koa2-tutorial', serverIp: '192.168.2.109' }
+[2018-12-07T10:36:48.879] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/user',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        referer: 'http://localhost:3000/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.1.10.1544150207' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-type': 'text/html; charset=utf-8',
+        'content-length': '2235' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.017s' } { projectName: 'koa2-tutorial', serverIp: '192.168.2.109' }
+[2018-12-07T10:36:48.954] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/home/home.css',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        referer: 'http://localhost:3000/user',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.1.10.1544150207',
+        'if-modified-since': 'Wed, 05 Dec 2018 09:04:19 GMT' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-length': '5893',
+        'last-modified': 'Wed, 05 Dec 2018 09:04:19 GMT',
+        'cache-control': 'max-age=0',
+        'content-type': 'text/css; charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/home/home.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.027s' } { projectName: 'koa2-tutorial', serverIp: '192.168.2.109' }
+[2018-12-07T10:36:53.615] [INFO] cheese - { request:
+   { method: 'POST',
+     url: '/user/register',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'content-length': '25',
+        'cache-control': 'max-age=0',
+        origin: 'http://localhost:3000',
+        'upgrade-insecure-requests': '1',
+        'content-type': 'application/x-www-form-urlencoded',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        referer: 'http://localhost:3000/user',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.2.10.1544150207' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-type': 'text/html; charset=utf-8',
+        'content-length': '1639' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user/register',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.032s' } { projectName: 'koa2-tutorial', serverIp: '192.168.2.109' }
+[2018-12-07T10:36:53.755] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/home/home.css',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        referer: 'http://localhost:3000/user/register',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.2.10.1544150207',
+        'if-modified-since': 'Wed, 05 Dec 2018 09:04:19 GMT' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-length': '5893',
+        'last-modified': 'Wed, 05 Dec 2018 09:04:19 GMT',
+        'cache-control': 'max-age=0',
+        'content-type': 'text/css; charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/home/home.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.003s' } { projectName: 'koa2-tutorial', serverIp: '192.168.2.109' }
+[2018-12-07T10:36:58.590] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/user',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        purpose: 'prefetch',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.3.10.1544150207' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-type': 'text/html; charset=utf-8',
+        'content-length': '2235' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.004s' } { projectName: 'koa2-tutorial', serverIp: '192.168.2.109' }
+[2018-12-07T10:36:58.671] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/home/home.css',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        purpose: 'prefetch',
+        referer: 'http://localhost:3000/user',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.3.10.1544150207',
+        'if-modified-since': 'Wed, 05 Dec 2018 09:04:19 GMT' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-length': '5893',
+        'last-modified': 'Wed, 05 Dec 2018 09:04:19 GMT',
+        'cache-control': 'max-age=0',
+        'content-type': 'text/css; charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/home/home.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.002s' } { projectName: 'koa2-tutorial', serverIp: '192.168.2.109' }
+[2018-12-07T10:37:02.448] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/404',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.3.10.1544150207' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/404',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.007s' } { projectName: 'koa2-tutorial', serverIp: '192.168.2.109' }
+[2018-12-07T10:37:37.140] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/400',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.4.10.1544150207' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/400',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.003s' } { projectName: 'koa2-tutorial', serverIp: '192.168.2.109' }
+[2018-12-07T10:38:18.539] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/400',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.5.10.1544150207' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/400',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.022s' } { projectName: 'koa2-tutorial', serverIp: '192.168.2.109' }
+[2018-12-07T10:38:19.756] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/400',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.6.10.1544150207' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/400',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.011s' } { projectName: 'koa2-tutorial', serverIp: '192.168.2.109' }
+[2018-12-07T10:38:28.659] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/500',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.7.10.1544150207' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/500',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.004s' } { projectName: 'koa2-tutorial', serverIp: '192.168.2.109' }
+[2018-12-07T10:46:54.373] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/404',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmb=111872281.8.10.1544150207' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/404',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.024s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
+[2018-12-07T10:46:57.736] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/404',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.9.10.1544150207' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/404',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.005s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
+[2018-12-07T10:47:03.112] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/401',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.10.10.1544150207' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/401',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.002s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
+[2018-12-07T10:47:39.036] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/400',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.11.10.1544150207' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/400',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.002s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
+[2018-12-07T10:49:14.318] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/500',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.14.10.1544150207' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/500',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.004s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
+[2018-12-07T10:49:23.374] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/5000',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.15.10.1544150207' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/5000',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.003s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
+[2018-12-07T10:49:34.986] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/user',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        referer: 'http://localhost:3000/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.25.10.1544150207' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-type': 'text/html; charset=utf-8',
+        'content-length': '2235' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.034s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
+[2018-12-07T10:49:35.101] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/home/home.css',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        referer: 'http://localhost:3000/user',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.25.10.1544150207',
+        'if-modified-since': 'Wed, 05 Dec 2018 09:04:19 GMT' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-length': '5893',
+        'last-modified': 'Wed, 05 Dec 2018 09:04:19 GMT',
+        'cache-control': 'max-age=0',
+        'content-type': 'text/css; charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/home/home.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.012s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
+[2018-12-07T10:49:38.193] [INFO] cheese - { request:
+   { method: 'POST',
+     url: '/user/register',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'content-length': '22',
+        'cache-control': 'max-age=0',
+        origin: 'http://localhost:3000',
+        'upgrade-insecure-requests': '1',
+        'content-type': 'application/x-www-form-urlencoded',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        referer: 'http://localhost:3000/user',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.26.10.1544150207' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-type': 'text/html; charset=utf-8',
+        'content-length': '2278' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user/register',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.03s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
+[2018-12-07T10:49:38.246] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/home/home.css',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        referer: 'http://localhost:3000/user/register',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10; __utmt=1; __utmb=111872281.26.10.1544150207',
+        'if-modified-since': 'Wed, 05 Dec 2018 09:04:19 GMT' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-length': '5893',
+        'last-modified': 'Wed, 05 Dec 2018 09:04:19 GMT',
+        'cache-control': 'max-age=0',
+        'content-type': 'text/css; charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/home/home.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.01s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
+[2018-12-07T11:56:02.321] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/user',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        purpose: 'prefetch',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-type': 'text/html; charset=utf-8',
+        'content-length': '2235' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.077s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
+[2018-12-07T11:56:02.380] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/home/home.css',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        purpose: 'prefetch',
+        referer: 'http://localhost:3000/user',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10',
+        'if-modified-since': 'Wed, 05 Dec 2018 09:04:19 GMT' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-length': '5893',
+        'last-modified': 'Wed, 05 Dec 2018 09:04:19 GMT',
+        'cache-control': 'max-age=0',
+        'content-type': 'text/css; charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/home/home.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.008s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
+[2018-12-07T11:56:04.025] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544145480.1544150207.10' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-type': 'text/html; charset=utf-8',
+        'content-length': '1795' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.005s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
+[2018-12-07T11:56:08.164] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/home/home.css',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        referer: 'http://localhost:3000/user',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544150207.1544154964.11; __utmt=1; __utmb=111872281.1.10.1544154964',
+        'if-modified-since': 'Wed, 05 Dec 2018 09:04:19 GMT' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-length': '5893',
+        'last-modified': 'Wed, 05 Dec 2018 09:04:19 GMT',
+        'cache-control': 'max-age=0',
+        'content-type': 'text/css; charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/home/home.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.013s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
+[2018-12-07T11:56:13.778] [INFO] cheese - { request:
+   { method: 'POST',
+     url: '/user/register',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'content-length': '25',
+        'cache-control': 'max-age=0',
+        origin: 'http://localhost:3000',
+        'upgrade-insecure-requests': '1',
+        'content-type': 'application/x-www-form-urlencoded',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        referer: 'http://localhost:3000/user',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544150207.1544154964.11; __utmt=1; __utmb=111872281.2.10.1544154964' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-type': 'text/html; charset=utf-8',
+        'content-length': '1639' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/user/register',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.036s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
+[2018-12-07T11:56:13.898] [INFO] cheese - { request:
+   { method: 'GET',
+     url: '/home/home.css',
+     header:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        referer: 'http://localhost:3000/user/register',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie:
+         'Webstorm-2f8f75da=c7f7cc3a-44b7-44c7-bad1-15063d5335f2; __utmz=111872281.1543911140.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmc=111872281; __utma=111872281.356728075.1543911140.1544150207.1544154964.11; __utmt=1; __utmb=111872281.2.10.1544154964',
+        'if-modified-since': 'Wed, 05 Dec 2018 09:04:19 GMT' } },
+  response:
+   { status: 200,
+     message: 'OK',
+     header:
+      { 'content-length': '5893',
+        'last-modified': 'Wed, 05 Dec 2018 09:04:19 GMT',
+        'cache-control': 'max-age=0',
+        'content-type': 'text/css; charset=utf-8' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/home/home.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' } { responseTime: '响应时间为0.011s' } { projectName: 'koa2-tutorial', serverIp: '0.0.0.0' }
